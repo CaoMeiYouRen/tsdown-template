@@ -13,4 +13,5 @@ export function hello() {
     if (__DEV__) {
         console.log('Hello development')
     }
+    console.log('你好，世界！')
 }
