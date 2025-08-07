@@ -22,4 +22,3 @@ updates:
       interval: weekly
       time: "04:00"
       timezone: Asia/Shanghai
-    ignore: []
