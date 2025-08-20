@@ -32,4 +32,3 @@ try {
 console.log('import.meta.url:', import.meta.url || 'not defined')
 console.log('import.meta.dirname:', import.meta.dirname || 'not defined')
 console.log('import.meta.filename:', import.meta.filename || 'not defined')
-
