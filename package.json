@@ -54,7 +54,7 @@
     "lint-staged": "^16.1.6",
     "rimraf": "^6.0.1",
     "semantic-release": "^23.0.6",
-    "tsdown": "^0.15.2",
+    "tsdown": "^0.15.4",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   },
