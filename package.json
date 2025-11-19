@@ -91,7 +91,9 @@
       "@octokit/request": "^9.2.1",
       "@octokit/request-error": "^5.1.1",
       "brace-expansion": "^2.0.2",
-      "tmp": "^0.2.4"
+      "tmp": "^0.2.4",
+      "glob": "^11.1.0",
+      "js-yaml": "^4.1.1"
     }
   },
   "type": "module"
