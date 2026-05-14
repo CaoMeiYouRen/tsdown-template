@@ -37,7 +37,7 @@ importers:
         specifier: ^4.1.13
         version: 4.1.13
       '@types/node':
-        specifier: ^25.7.0
+        specifier: ^25.6.0
         version: 25.7.0
       commitizen:
         specifier: ^4.3.1
@@ -58,7 +58,7 @@ importers:
         specifier: ^4.4.3
         version: 4.4.3
       eslint:
-        specifier: ^9.39.4
+        specifier: ^9.39.2
         version: 9.39.4(jiti@2.6.1)
       eslint-config-cmyr:
         specifier: 2.3.0
@@ -79,10 +79,10 @@ importers:
         specifier: ^0.22.0
         version: 0.22.0(tsx@4.22.0)(typescript@6.0.3)(unrun@0.2.39(synckit@0.11.11))
       tsx:
-        specifier: ^4.22.0
+        specifier: ^4.21.0
         version: 4.22.0
       typescript:
-        specifier: ^6.0.3
+        specifier: ^6.0.2
         version: 6.0.3
 
 packages:
@@ -2550,9 +2550,6 @@ packages:
   minimatch@10.1.1:
     resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
-
-  minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
@@ -5296,7 +5293,7 @@ snapshots:
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       object.fromentries: 2.0.8
       object.groupby: 1.0.3
       object.values: 1.2.1
@@ -6485,10 +6482,6 @@ snapshots:
   minimatch@10.1.1:
     dependencies:
       '@isaacs/brace-expansion': 5.0.0
-
-  minimatch@3.1.2:
-    dependencies:
-      brace-expansion: 2.1.0
 
   minimatch@3.1.5:
     dependencies:
