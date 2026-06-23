@@ -3,6 +3,7 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - commitlint-config-cmyr@1.0.1
 overrides:
+  undici: ^7.28.0
   compare-func: ^2.0.0
   katex: ^0.16.21
   esbuild: ^0.25.0
