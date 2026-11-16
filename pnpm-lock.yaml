@@ -54,8 +54,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       conventional-changelog-cmyr-config:
-        specifier: ^3.0.0
-        version: 3.0.0(supports-color@7.2.0)
+        specifier: ^3.1.2
+        version: 3.1.2(supports-color@7.2.0)
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -1121,8 +1121,8 @@ packages:
     resolution: {integrity: sha512-0MWQLVUT1oVCsUGs9aAWteBVxPlLwJTn5VbQH7B0B3fDizZgrJ9QGnKl/2mp1+5P7153GCBCjO/v1aKJ6eysCg==}
     engines: {node: '>=22'}
 
-  conventional-changelog-cmyr-config@3.0.0:
-    resolution: {integrity: sha512-QhD/0545XRgspCcopi2d5L8ffFdiqsaqqcQfGRprv18CVH0NUQUtfORpbNqEOWwl1VxYj1pZUcVyxHTSfam1Xg==}
+  conventional-changelog-cmyr-config@3.1.2:
+    resolution: {integrity: sha512-9roTUAub9cFrBEK5KsKXlGabEIAC2BrhxRx0lq1r/f/CElob1KHI+MoZ41xKsuxLQbZqTWaPb7BiVX9C/PAVvQ==}
     engines: {node: '>=18'}
 
   conventional-changelog-conventionalcommits@10.3.0:
@@ -4266,10 +4266,11 @@ snapshots:
     dependencies:
       '@conventional-changelog/template': 1.3.0
 
-  conventional-changelog-cmyr-config@3.0.0(supports-color@7.2.0):
+  conventional-changelog-cmyr-config@3.1.2(supports-color@7.2.0):
     dependencies:
       compare-func: 2.0.0
       debug: 4.4.3(supports-color@7.2.0)
+      handlebars: 4.7.10
     transitivePeerDependencies:
       - supports-color
 
